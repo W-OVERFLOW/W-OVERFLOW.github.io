@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+:root {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  --text-primary: #b6b6b6;
+  --text-secondary: #705df3;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
+.blue1 {
+  background: rgb(117, 175, 247);
+}
+
+.blue2 {
+  background: rgb(93, 160, 243);
+}
+
+.blue3 {
+  background: rgb(62, 141, 236);
+}
+
+.blue4 {
+  background: rgb(48, 123, 216);
+}
+
+.blue5 {
+  background: rgb(35, 106, 192);
+}
+
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin-left: 5rem;
+}
+
+.navbar {
+  position: fixed;
+  background-color: var(--bg-primary);
+  transition: width 200ms ease 0s;
+  z-index: 1;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  filter: grayscale(100%) opacity(0.7);
+  transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+  filter: grayscale(0%) opacity(1);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+.link-text {
+  display: none;
+  margin-left: 1rem;
+}
+
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0px 1.5rem;
+}
+
+.navbar:hover {
+  width: 18rem;
+}
+
+.navbar:hover .link-text {
+  display: block;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  font-size: 1.5rem;
+  letter-spacing: 0.3ch;
+  width: 100%;
+}
+
+.logo svg {
+  transform: rotate(0deg);
+  transition: transform var(--transition-speed);
+}
+
+.navbar:hover .logo svg {
+  transform: rotate(-180deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0px;
+    width: 100vw;
+    height: 5rem;
+  }
+  .logo {
+    display: none;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .nav-link {
+    justify-content: center;
+  }
+  main {
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0px;
+    width: 5rem;
+    height: 100vh;
+  }
+  .navbar:hover {
+    width: 18rem;
+  }
+  .navbar:hover .link-text {
+    display: inline;
+    transition: opacity var(--transition-speed);
+  }
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 90px 20vw;
+}
+
+#contact {
+  padding-top: 140px;
+}
+
+h1 {
+  margin-top: 0px;
+  font-size: 72px;
+  position: relative;
+  text-shadow: rgba(26, 26, 26, 0.4) 2px 2px 8px;
+}
+
+.typewriter {
+  position: relative;
+  left: 45px;
+  bottom: 60px;
+  text-shadow: rgba(0, 0, 0, 0.4) 2px 2px 8px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.card-list {
+  font-family: "DM Mono", monospace;
+  display: flex;
+  padding: 3rem;
+  overflow-x: scroll;
+  max-width: 150%;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgb(23, 20, 29);
+  box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
+  transition: all 0.2s ease 0s;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.card:hover ~ .card {
+  transform: translateX(130px);
+}
+
+.card:not(:first-child) {
+  margin-left: -130px;
+}
+
+.card-header {
+  margin-bottom: auto;
+}
+
+.card-header p {
+  margin: 0 0 1rem;
+  color: #7a7a8c;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  margin: 0.25rem 0 auto;
+  cursor: pointer;
+}
+
+.card-header h2:hover {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.tags {
+  margin: 1rem 0 2rem;
+  padding: 0.5rem 0 1rem;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.tags a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.5rem;
+  color: #7a7a8c;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 0.66rem;
+  border: 3px solid #28242f;
+  border-radius: 2rem;
+  padding: 0.2rem 0.85rem 0.25rem;
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave .shape-fill {
+  fill: rgb(117, 175, 247);
+}
+
+.wrapper {
+  display: inline-flex;
+  padding: 50px;
+  z-index: 1;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0px;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: rgb(255, 255, 255);
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+.wrapper .discord:hover,
+.wrapper .discord:hover .tooltip,
+.wrapper .discord:hover .tooltip::before {
+  background-color: rgb(88, 85, 246);
+  color: rgb(255, 255, 255);
+}
+
+.asymm-bubble {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.asymm-bubble svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 114px;
+  transform: rotateY(180deg);
+}
+
+.asymm-bubble .shape-fill {
+  fill: rgb(93, 160, 243);
+}
+
+.blob-motion {
+  position: absolute;
+  z-index: 0;
+}
+
+.layered-waves {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.layered-waves svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.layered-waves .shape-fill {
+  fill: rgb(62, 141, 236);
+}
+
+.credits {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.our-team {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding: 30px 0px 40px;
+  margin: 0px 20px;
+  min-width: fit-content;
+}
+
+.our-team .pic {
+  display: inline-block;
+  width: 256px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.our-team .pic img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.our-team .credits-content {
+  margin-bottom: 30px;
+}
+
+.our-team .post {
+  display: block;
+  font-size: 18px;
+  color: cornsilk;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.name {
+  text-decoration: none;
+}
+
+.name:link,
+.name:active,
+.name:visited {
+  color: hsl(276, 100%, 25%);
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .credits {
+    flex-direction: column;
+  }
+  .our-team {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
