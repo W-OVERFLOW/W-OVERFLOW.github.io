@@ -167,7 +167,7 @@ section {
 
 h1 {
   margin-top: 0px;
-  font-size: 72px;
+  font-size: 8vw;
   position: relative;
   text-shadow: rgba(26, 26, 26, 0.4) 2px 2px 8px;
 }
@@ -407,8 +407,9 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 80%;
+/*   width: 80%; */
   margin: auto;
+  flex-direction: column;
 }
 
 .our-team {
@@ -422,13 +423,14 @@ a {
 
 .our-team .pic {
   display: inline-block;
-  width: 256px;
+/*   width: 256px; */
   margin-bottom: 0;
   position: relative;
+  width: 15vh;
 }
 
 .our-team .pic img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 50%;
 }
