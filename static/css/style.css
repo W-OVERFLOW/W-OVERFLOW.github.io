@@ -167,7 +167,7 @@ section {
 
 h1 {
   margin-top: 0px;
-  font-size: 72px;
+  font-size: 8vw;
   position: relative;
   text-shadow: rgba(26, 26, 26, 0.4) 2px 2px 8px;
 }
@@ -188,35 +188,26 @@ p {
 .card-list {
   font-family: "DM Mono", monospace;
   display: flex;
-  padding: 3rem;
-  overflow-x: scroll;
-  max-width: 150%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
   display: flex;
-  position: relative;
   flex-direction: column;
   height: 350px;
-  width: 300px;
   min-width: 250px;
   padding: 1.5rem;
   border-radius: 16px;
+  margin: 2%;
   background: rgb(23, 20, 29);
   box-shadow: rgb(0, 0, 0) -1rem 0px 3rem;
   transition: all 0.2s ease 0s;
+  flex-basis: calc((100% / 3) - (4% * 3));
 }
 
 .card:hover {
-  transform: translateY(-1rem);
-}
-
-.card:hover ~ .card {
-  transform: translateX(130px);
-}
-
-.card:not(:first-child) {
-  margin-left: -130px;
+  /* add hover effects */
 }
 
 .card-header {
@@ -416,7 +407,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
 }
 
@@ -431,13 +422,13 @@ a {
 
 .our-team .pic {
   display: inline-block;
-  width: 256px;
+  /* width: 256px; */
   margin-bottom: 0;
   position: relative;
 }
 
 .our-team .pic img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 50%;
 }
