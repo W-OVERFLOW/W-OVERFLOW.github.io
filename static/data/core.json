@@ -1,6 +1,6 @@
  {
- "core": "",
- "checksum_core": "",
- "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/v1.0.0/CoreDownloader-1.0.0.jar",
- "checksum_loader": "91b65cf0509527c3b4882146cd6261d109fcc11ecfb3959e79abb3222d3b9262"
+ "core": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.0.0/W-CORE-1.0.0.jar",
+ "checksum_core": "468df941b2f116db6fd67d6a51e8ceca1a9d15a8c15a8e34e4a803c1fab7ac1a",
+ "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/v1.0.0/W-CORE-LOADER-1.0.0.jar",
+ "checksum_loader": "374bc02012e73ff7f9040c875166331eac8ae239db4fdd83f4f199909747d19f"
  }
