@@ -1,6 +1,6 @@
  {
  "core": "",
  "checksum_core": "",
- "core_downloader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/v1.0.0/CoreDownloader-1.0.0.jar",
+ "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/v1.0.0/CoreDownloader-1.0.0.jar",
  "checksum_loader": "91b65cf0509527c3b4882146cd6261d109fcc11ecfb3959e79abb3222d3b9262"
  }
