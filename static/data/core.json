@@ -3,8 +3,7 @@
  "checksum_core": "468df941b2f116db6fd67d6a51e8ceca1a9d15a8c15a8e34e4a803c1fab7ac1a",
  "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/1.1.0/W-CORE-LOADER-1.1.0.jar",
  "checksum_loader": "f8ac5cb57021c0ea5a8639a9bc7db89a8c5caf5770b55b6e4ea68ffd4e693201",
- "tweaker": "https://repo.woverflow.cc/releases/cc/woverflow/w-core-tweaker/1.0.0/W-CORE-TWEAKER-1.0.0.jar"
- 
+ "tweaker": "https://repo.woverflow.cc/releases/cc/woverflow/w-core-tweaker/1.0.0/W-CORE-TWEAKER-1.0.0.jar",
  "version": "1.0.0",
  "classpath": {
   "tweaker": "cc.woverflow.wcore.tweaker.WCoreTweaker",
