@@ -1,6 +1,8 @@
 {
- "core": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.0.0/W-CORE-1.0.0.jar",
- "checksum_core": "468df941b2f116db6fd67d6a51e8ceca1a9d15a8c15a8e34e4a803c1fab7ac1a",
+ "core": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.0/W-CORE-1.1.0.jar",
+ "checksum_core": "5f4a22da51c173d71d01aecf0d6a601767c96747b30624296dfed4c63bf2a456",
+ "core_dev": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.0/W-CORE-1.1.0-deobf.jar",
+ "checksum_core_dev": "55b6037b387c9fbcf9a119f364c9379f2c9ee276f399c5c5873c44c77a471851",
  "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/1.1.0/W-CORE-LOADER-1.1.0.jar",
  "checksum_loader": "f8ac5cb57021c0ea5a8639a9bc7db89a8c5caf5770b55b6e4ea68ffd4e693201",
  "tweaker": "https://repo.woverflow.cc/releases/cc/woverflow/w-core-tweaker/1.0.0/W-CORE-TWEAKER-1.0.0.jar",
