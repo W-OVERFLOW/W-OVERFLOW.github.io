@@ -9,6 +9,6 @@
  "classpath": {
   "tweaker": "cc.woverflow.wcore.tweaker.WCoreTweaker",
   "loader": "cc.woverflow.wcore.loader.WCoreLoader",
-  "main": "cc.woverflow.wcore"
+  "main": "cc.woverflow.wcore.init.WCoreInit"
  }
 }
