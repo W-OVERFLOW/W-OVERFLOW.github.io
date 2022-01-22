@@ -1,7 +1,7 @@
 {
  "core": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.1/W-CORE-1.1.1.jar",
  "checksum_core": "88b9dddd47c6717cca8c6bbf31aab909f967a14b4d8612a87a09f8be7251390f",
- "core_dev": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.01W-CORE-1.1.1-deobf.jar",
+ "core_dev": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.1/W-CORE-1.1.1-deobf.jar",
  "checksum_core_dev": "a9f32f02d33cf269dea06ffb932dba3f13d0675f221f3624284b13f0cdff1158",
  "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/1.1.1/W-CORE-LOADER-1.1.1.jar",
  "checksum_loader": "98822b4b3a6995975c0e2bfe489f441fcc65739bd7112c0bdfd1fe97acb205d4",
