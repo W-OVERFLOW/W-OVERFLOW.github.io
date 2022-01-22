@@ -1,11 +1,10 @@
 {
- "core": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.0/W-CORE-1.1.0.jar",
- "checksum_core": "5f4a22da51c173d71d01aecf0d6a601767c96747b30624296dfed4c63bf2a456",
- "core_dev": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.0/W-CORE-1.1.0-deobf.jar",
- "checksum_core_dev": "55b6037b387c9fbcf9a119f364c9379f2c9ee276f399c5c5873c44c77a471851",
- "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/1.1.0/W-CORE-LOADER-1.1.0.jar",
- "checksum_loader": "31fb2ba8f7d96a0d78b179aa089ed0f66a5dae913d19a33e2e74cdd9184f0e70",
- "version": "1.0.0",
+ "core": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.1/W-CORE-1.1.1.jar",
+ "checksum_core": "88b9dddd47c6717cca8c6bbf31aab909f967a14b4d8612a87a09f8be7251390f",
+ "core_dev": "https://github.com/W-OVERFLOW/W-CORE/releases/download/1.1.01W-CORE-1.1.1-deobf.jar",
+ "checksum_core_dev": "a9f32f02d33cf269dea06ffb932dba3f13d0675f221f3624284b13f0cdff1158",
+ "loader": "https://github.com/W-OVERFLOW/W-CORE-LOADER/releases/download/1.1.1/W-CORE-LOADER-1.1.1.jar",
+ "checksum_loader": "98822b4b3a6995975c0e2bfe489f441fcc65739bd7112c0bdfd1fe97acb205d4",
  "classpath": {
   "tweaker": "cc.woverflow.wcore.tweaker.WCoreTweaker",
   "loader": "cc.woverflow.wcore.loader.WCoreLoader",
