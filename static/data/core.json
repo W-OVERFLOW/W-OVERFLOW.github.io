@@ -3,8 +3,8 @@
  "checksum_core": "b6801f27d340e97ff6035281a73b91c744d20498ae4b3b2f71aa2f68ac2ff669",
  "core_dev": "https://repo.woverflow.cc/releases/cc/woverflow/w-core/1.1.3/w-core-1.1.3-deobf.jar",
  "checksum_core_dev": "cfb786cb16ff170be7dbd1d5f6fc7ac992a221ef64344569dfba59375e722aef",
- "loader": "https://repo.woverflow.cc/releases/cc/woverflow/w-core-loader/1.1.4/w-core-loader-1.1.4.jar",
- "checksum_loader": "fc4d8f35d567cbd33a13482310457d873311144bb51141cabeffdccfcf01ae2e",
+ "loader": "https://repo.woverflow.cc/releases/cc/woverflow/w-core-loader/1.1.5/w-core-loader-1.1.5.jar",
+ "checksum_loader": "769895f8640ce3acdb64cf1535744e4cf07c7fa73b791a49fbfc424b406ec860",
  "classpath": {
   "tweaker": "cc.woverflow.wcore.tweaker.WCoreTweaker",
   "loader": "cc.woverflow.wcore.loader.WCoreLoader",
