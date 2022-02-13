@@ -3,8 +3,8 @@
  "checksum_core": "37feaccb802ff8bbb0d064d8e2389e20669c50e5a80236d4dfb8c59a0eea9f24",
  "core_dev": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.2.1/onecore-1.2.1-deobf.jar",
  "checksum_core_dev": "fcb39bf148517247def843d25c525965bff68456cfee45b5bb2e3d3d60781c29",
- "loader": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-loader/1.2.0/onecore-loader-1.2.0.jar",
- "checksum_loader": "02aa4613fd23eaa72c9573b8cd8390f749d4d6c6601c47e98387b3ded54440f9",
+ "loader": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-loader/1.2.1/onecore-loader-1.2.1.jar",
+ "checksum_loader": "801ec8d23941622baf372a1afa97e1260212fb16cb7a0cb4d433f9eff8828bda",
  "classpath": {
   "loader": "cc.woverflow.onecore.loader.OneCoreLoader",
   "main": "cc.woverflow.onecore.init.OneCoreInit"
