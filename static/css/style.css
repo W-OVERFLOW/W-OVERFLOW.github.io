@@ -61,6 +61,10 @@ main {
   width: 100%;
 }
 
+.tos {
+  color: #141418;
+}
+
 .nav-link {
   display: flex;
   align-items: center;
