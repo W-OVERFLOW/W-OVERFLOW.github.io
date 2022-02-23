@@ -1,2 +1,2 @@
-User-agent: *
-Disallow: /legal/*
+# Robots
+# This page is mostly for SEO
