@@ -9,6 +9,6 @@
  "classpath": {
   "loader": "cc.woverflow.onecore.loader.OneCoreLoader",
   "main": "cc.woverflow.onecore.init.OneCoreInit",
-  "dev": "cc.woverflow.dev.OneCoreDev"
+  "dev-override": "cc.woverflow.dev.OneCoreDev"
  }
 }
