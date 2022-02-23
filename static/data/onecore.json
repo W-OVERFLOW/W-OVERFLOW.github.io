@@ -1,10 +1,10 @@
 {
- "core": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.2.1/onecore-1.2.1.jar",
- "checksum_core": "37feaccb802ff8bbb0d064d8e2389e20669c50e5a80236d4dfb8c59a0eea9f24",
- "core_dev": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.2.1/onecore-1.2.1-deobf.jar",
- "checksum_core_dev": "fcb39bf148517247def843d25c525965bff68456cfee45b5bb2e3d3d60781c29",
- "loader": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-loader/1.2.1/onecore-loader-1.2.1.jar",
- "checksum_loader": "801ec8d23941622baf372a1afa97e1260212fb16cb7a0cb4d433f9eff8828bda",
+ "core": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.2.2/onecore-1.2.2.jar",
+ "checksum_core": "d7d3cc5e14d2e22fff54f9a72d6dd5f3485f91000043cd5a0ece2cef83cc560f",
+ "core_dev": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.2.2/onecore-1.2.2-deobf.jar",
+ "checksum_core_dev": "8ffeb92d2575a59da5530eb45107e0604c6caf723f31940f0042964921a72053",
+ "loader": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-loader/1.2.2/onecore-loader-1.2.2.jar",
+ "checksum_loader": "8e1de3c2edc4c476da374f77e735d3c43f29182f91203589379467a2a128b590",
  "dev": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-dev/0.0.1/onecore-dev-0.0.1.jar",
  "classpath": {
   "loader": "cc.woverflow.onecore.loader.OneCoreLoader",
