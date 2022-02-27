@@ -3,7 +3,7 @@
   "packet.type": "AlertType",
   "packet.name": "Alerts",
   "connection.server": "ws://ws-aether.woverflow.cc/",
-  "connection.clients": "onecore"
+  "connection.clients": "onecore",
   "messages" {
     "message-1" {
       "message.type": "dev.test"
