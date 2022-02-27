@@ -6,10 +6,10 @@
   "connection.clients": "onecore",
   "messages" {
     "message-1" {
-      "message.type": "dev.test"
+      "message.type": "dev.test",
       "onecore.mixins": "true",
-      "onecore.event": "startup"
-      "onecore.notify": "alert"
+      "onecore.event": "startup",
+      "onecore.notify": "alert",
       "message.content": "This is a test message. If you are seeing this please contact support at https://woverflow.cc/discord"
     }
   }
