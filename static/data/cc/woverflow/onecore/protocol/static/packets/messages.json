@@ -2,11 +2,14 @@
   "extends": "@aetherlibs/packetjson",
   "packet.type": "AlertType",
   "packet.name": "Alerts",
-  "connection.server": "ws://ws-aether.woverflow.cc/",
-  "connection.clients": "onecore",
+  "protocol.server": "wss://ws-aether.woverflow.cc/",
+  "protocol.aether.server": "aedss://aether-sec.woverflow.cc/",
+  "protocol.aether.secure": "https://aether.woverflow.cc/never/gonna/give/you/up/secure.ash",
+  "connection.clients": "onecore-prod.all",
   "messages": {
     "message-1": {
       "message.type": "dev.test",
+      "onecore.version": "18, 8",
       "onecore.mixins": "true",
       "onecore.event": "startup",
       "onecore.notify": "alert",
