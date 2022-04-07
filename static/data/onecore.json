@@ -1,4 +1,5 @@
 {
+ "_note": "this is now unused and replaced by onecore-all.json",
  "core": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.3.4/onecore-1.3.4.jar",
  "checksum_core": "39c09445be8ca7bb6d35715eab224ee275f1957da8d58767dbf78a6b857a7e21",
  "core_dev": "https://repo.woverflow.cc/releases/cc/woverflow/onecore/1.3.4/onecore-1.3.4-deobf.jar",
