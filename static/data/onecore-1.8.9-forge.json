@@ -1,7 +1,7 @@
 {
-  "core": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-1.8.9-forge/1.4.7/onecore-1.8.9-forge-1.4.7.jar",
+  "core": "https://api.woverflow.cc/onecore-1.8.9-forge/1.4.7/onecore-1.8.9-forge-1.4.7.jar",
   "checksum_core": "94a258e0cc716c14eda1baf41590fa1eecaeebba5a1043ad92b9215c3901bc60",
-  "core_dev": "https://repo.woverflow.cc/releases/cc/woverflow/onecore-1.8.9-forge/1.4.7/onecore-1.8.9-forge-1.4.7-deobf.jar",
+  "core_dev": "https://api.woverflow.cc/onecore-1.8.9-forge/1.4.7/onecore-1.8.9-forge-1.4.7-deobf.jar",
   "checksum_core_dev": "bbec4d2598145901b4d04439758d8f48552877ed87a728790a80416d1f7bc063",
   "classpath": {
     "main": "cc.woverflow.onecore.init.OneCoreInit"
