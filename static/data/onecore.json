@@ -1,10 +1,10 @@
 {
  "_note": "this is now unused and replaced by onecore-all.json",
- "core": "https://api.woverflow.cc/onecore/1.3.4/onecore-1.3.4.jar",
- "checksum_core": "39c09445be8ca7bb6d35715eab224ee275f1957da8d58767dbf78a6b857a7e21",
+ "core": "https://woverflow.cc/static/data/onecore-1.3.4.jar",
+ "checksum_core": "7b0a95bbe06a49c3acf3fb63dccc5c65b5317f4b912477245dea24d52de605f2",
  "core_dev": "https://api.woverflow.cc/onecore/1.3.4/onecore-1.3.4-deobf.jar",
  "checksum_core_dev": "68c91f06dc4b848d2d55017e78d2825131b25321bf5eaa424fd636c0ae3a245b",
- "loader": "https://api.woverflow.cc/onecore-loader/1.3.0/onecore-loader-1.3.0.jar",
+ "loader": "https://woverflow.cc/static/data/onecore-loader-1.3.0.jar",
  "checksum_loader": "7d18f9136fdf546b5aed3bd2316ac26dc4fdc83e0d9595884fd2ca12530d23f7",
  "dev": "https://api.woverflow.cc/onecore-dev/0.0.1/onecore-dev-0.0.1.jar",
  "classpath": {
