@@ -1,6 +1,6 @@
 {
-  "loader": "https://api.woverflow.cc/onecore-loader/1.4.1/onecore-loader-1.4.1.jar",
-  "checksum_loader": "89f4363b6fb4d7e5a02022008afd3cad1c77bd3dba0b584c6206a4eb6ae11b19",
+  "loader": "https://woverflow.cc/static/data/onecore-loader-1.4.2.jar",
+  "checksum_loader": "a7d993270e1b6ae4ee36c3a6e091dbbceb4506e60f5afcca0bbb06025ab210f8",
   "classpath": {
     "loader": "cc.woverflow.onecore.loader.OneCoreLoader"
   }
