@@ -3,8 +3,8 @@
 :root {
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  --text-primary: #b6b6b6;
-  --text-secondary: #705df3;
+  --text-primary: black;
+  --text-secondary: black;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
